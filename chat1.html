@@ -71,8 +71,10 @@
 				},
 				data: JSON.stringify({ query: text, lang: "en", sessionId: "somerandomthing" }),
 				success: function(data) {
-					alert(data);
+					
 					var reply = JSON.parse(data);
+					alert(reply.lang);
+					alert(reply.contexts.fulfillment.speech);
 					setResponse(reply.result);
 					//setResponse(JSON.stringify(data, undefined, 2));
 				},
