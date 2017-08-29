@@ -5,7 +5,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript">
 		var accessToken = "0b2aa0b7ab9b4355b28c6f40da71cbe9";
-		var baseUrl = "https://api.api.ai/v1/";
+		var baseUrl = "https://api.api.ai/v2/";
 		$(document).ready(function() {
 			$("#input").keypress(function(event) {
 				if (event.which == 13) {
@@ -71,7 +71,10 @@
 				},
 				data: JSON.stringify({ query: text, lang: "en", sessionId: "somerandomthing" }),
 				success: function(data) {
-					setResponse(JSON.stringify(data, undefined, 2));
+					var reply = JSON.parse(data);
+					alert(reply.result.fulfillment.speech);
+					setResponse(reply.result.fulfillment.speech);
+					//setResponse(JSON.stringify(data, undefined, 2));
 				},
 				error: function() {
 					setResponse("Internal Server Error");
@@ -80,7 +83,6 @@
 			setResponse("Loading...");
 		}
 		function setResponse(val) {
-			alert (val);
 			$("#response").text(val);
 		}
 	</script>
