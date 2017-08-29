@@ -80,9 +80,7 @@
 			setResponse("Loading...");
 		}
 		function setResponse(val) {
-			var obj = JSON.parse(val);
-			alert(obj.fulfillment.speech);
-			$("#response").text(obj.fulfillment.speech);
+			$("#response").text(val);
 		}
 	</script>
 	<style type="text/css">
