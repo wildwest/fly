@@ -73,7 +73,7 @@
 				success: function(data) {
 					alert(data);
 					var reply = JSON.parse(data);
-					setResponse(reply.result.fulfillment.speech);
+					setResponse(reply.result);
 					//setResponse(JSON.stringify(data, undefined, 2));
 				},
 				error: function() {
