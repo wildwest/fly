@@ -80,7 +80,9 @@
 			setResponse("Loading...");
 		}
 		function setResponse(val) {
-			$("#response").text(val);
+			var obj = JSON.parse(val);
+			
+			$("#response").text(obj.fulfillment.speech);
 		}
 	</script>
 	<style type="text/css">
@@ -93,8 +95,8 @@
 </head>
 <body>
 	<div>
-		<input id="input" type="text"> <button id="rec">Speak</button>
 		<br>Response<br> <textarea id="response" cols="40" rows="20"></textarea>
+		<input id="input" type="text"> <button id="rec">Speak</button>
 	</div>
 </body>
 </html>
