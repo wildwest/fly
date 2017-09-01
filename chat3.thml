@@ -4,6 +4,9 @@
 <meta http-equiv="Content-type" content="text/html; charset=utf-8"> 
 <title>Widgets Magazine</title> 
 <style type="text/css" media="screen"> 
+body {
+        background-image: url("https://lh3.googleusercontent.com/AU35Kg6zLKoz6VfNXEQjKOKFjWOl0eNPx28V94OgBq6EyebRQ_rs_ynXPRR1VU9hc9bw9HSiWUU6wNH8gvPK-5s1EyE-zMQseaFZY5KvB2Nsi_a0YVvxxygENGhqfiuznY7gHLuwQNvCO6wmkUnLPrfPKlGYElV5aiF-A7sW4OltqqJbSo6oD-7GJxSmOeqBKNJsy4CHc_spetUz1sL3XHqYbTEBXFnrhUIfpTeXHuOWEraUzMUJVJuj6_iR939EfxReOlTOE7mldpKtvlwWTXYxFKFO95hg4kuXRPmOSOADclBuQSRttxfrKUP52Nb_SruKiNxgLmw-C9gvVUim0AN_gP8CBxjqsEYs9cElI2vubrTnBEsk4Wwi61lm2X7LUHmOlUEIblFgx2iy91sma1THUHO5oE-aEeVkTeQ9ZoTyK_6aJgOQxpRDNuKwYZlaQF7v8p_ZLnR9XjE_c6mzfQ2WPAcS2EKlnYTTvKkkIJIZ1PZGPWDjB0HlTgKMr3r9NVtIXjLR4zttPx9OW99eseIR--c0sd7wGQOrAbeIQ7JuoFGqJHtkr-h2yIpUosTk0h5U2-iatpj-1LwqlOdtEWdiBlbNpee5M_e-xlsh5jBrtBH4qOVfTw=w1504-h998-no");
+} 
 </style>
 <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
 <script>
